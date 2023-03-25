@@ -19,7 +19,7 @@ function App() {
         <Link to="/dynamic">Dynamic</Link>
       </nav>
       <div className="content">
-        <React.Suspense fallback={<em>Loading...</em>}>
+        <React.Suspense fallback={<em>Hello Wold</em>}>
           <Router>
             <Dynamic path="dynamic" />
             <Routes path="*" />
