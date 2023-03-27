@@ -1,0 +1,36 @@
+:root {
+  --clr-black: #171321;
+  --clr-secondary: #0d314b;
+  --clr-pink--dark: #ff17e4;
+  --clr-pink--light: #e310cb;
+  --clr-primary: #86fbfb;
+  --clr-white: #f7f8fa;
+  --mono: "Oxygen mono", monospace;
+  --sans: Oxygen, sans-serif;
+}
+
+html {
+  /* 62.5% of 16px base font size is 10px */
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* generic styles */
+/* Preserve 16px body font-size, set body font-size to 1.6rem */
+body {
+  /* 16px */
+  font-size: 1.6rem;
+  background-color: var(--clr-black);
+}
+
+.hero {
+  color: var(--clr-white);
+}
