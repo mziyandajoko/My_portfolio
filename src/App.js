@@ -13,9 +13,13 @@ function App() {
   return (
     <Root>
       <nav>
-        <Link to="/">Home</Link>
+        <Link to="/">Mziyanda Joko</Link>
         <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
+        <Link to="/blog">Project</Link>
+        <Link to="/blog">Contact</Link>
+        <Link to="/blog">Github</Link>
+        <Link to="/blog">LinkedIn</Link>
+        <Link to="/blog">Resume</Link>
         <Link to="/dynamic">Dynamic</Link>
       </nav>
       <div className="content">

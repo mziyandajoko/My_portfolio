@@ -4,7 +4,7 @@ import '../../css/index.css'
 
 const Title = styled.h2`
 font-size:  5rem;
-color: var(--clr-primary);
+font-weight: normal;
 font-family: var(--sans)
 
 

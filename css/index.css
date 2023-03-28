@@ -28,9 +28,32 @@ html {
 body {
   /* 16px */
   font-size: 1.6rem;
+  margin: 0px;
+  padding: 0px;
   background-color: var(--clr-black);
+  font-family: var(--mono);
+}
+
+h1, h2, h3 {
+  margin: 0px;
+}
+
+a {
+  color: var(--clr-pink--light);
+}
+a:hover {
+  text-decoration: none;
 }
 
 .hero {
   color: var(--clr-white);
+}
+.hero .name {
+  font-family: var(--mono);
+}
+.hero .name span {
+  display: block;
+  color: var(--clr-primary);
+  font-size: 5rem;
+  font-family: var(--sans);
 }
